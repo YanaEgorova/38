@@ -1,0 +1,50 @@
+.hero__wrapper {
+    /* background-image: url('https://www.firstforwomen.com/wp-content/uploads/sites/2/2019/08/fitness-accessories.jpg');
+    background-image: url('https://t4.ftcdn.net/jpg/02/09/47/39/360_F_209473934_FEWW3Dxikm2nsCQVm5OZSAp07uAGhSGm.jpg');
+    background-image: url('https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_31/1595313/working-out-plan-te-main-200729.jpg');
+    background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/0909-daynnight-workout-1599689628.jpg'); */
+    background-image: url('../img/img7.jpeg');
+    /* background-image: url('https://api.time.com/wp-content/uploads/2016/01/pink-weights-body-image-health-fitness.jpg?w=824&quality=70');
+    background-image: url('https://blog.tabiib.com/wp-content/uploads/2020/04/268671-P56008-73-1000x450.jpg');
+    background-image: url('https://w7.pngwing.com/pngs/56/15/png-transparent-two-red-fixed-weight-dumbbells-and-tape-measure-physical-fitness-weight-training-physical-exercise-weight-loss-personal-trainer-red-dumbbell-element-boxing-glove-sports-fitness-centre.png');
+    background-image: url('https://i.pinimg.com/564x/d1/48/ca/d148ca0f75cd60b64ae53caa55e59b65.jpg');
+    background-image: url('https://i.pinimg.com/564x/05/09/f5/0509f5c2f449e58f387343cf273614bd.jpg');
+    background-image: url('https://i.pinimg.com/564x/35/3f/b5/353fb525a8298d121a9ecdc30e6029d2.jpg');
+    background-image: url('https://i.pinimg.com/564x/73/d8/cd/73d8cd09efb7bf1097ea48c473b0398e.jpg');
+    background-image: url('https://i.pinimg.com/564x/2e/b5/5f/2eb55f634c68f9e04bf5cc6d25a110d5.jpg');
+    background-image: url('https://i.pinimg.com/564x/c7/e2/b2/c7e2b2a4cc32b206171f836106be8673.jpg');
+    background-image: url('https://i.pinimg.com/564x/9f/30/fa/9f30faba6c61767daba6c55b56accb98.jpg');
+    background-image: url('https://i.pinimg.com/564x/68/e0/84/68e08440a5075069d4b407ba61b78288.jpg');
+    background-image: url('https://i.pinimg.com/564x/45/7d/d9/457dd93a0dba8141a7832de9cc46a6ea.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+.hero {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    line-height: 1;
+    position: relative;
+}
+.hero__title {
+    font-size: 10rem;
+    letter-spacing: .3rem;
+    font-weight: 900;
+    margin-bottom: 4rem;
+    font-family: var(--title-font);
+}
+@media screen and (min-width: 1024px)  {
+    .hero {
+        text-align: left;
+        padding: 20rem 0 15rem;
+    }
+    .hero__title {
+        font-size: 12rem;
+    }
+    .hero__link {
+        padding: 3rem 4rem;
+        font-size: 1.6rem;
+    }
+}

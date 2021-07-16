@@ -1,0 +1,21 @@
+.about__wrapper {
+    background-color: var(--second-brand-color);
+}
+.about {
+    padding: 5rem;
+    text-align: center;
+}
+.about__img {
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 1024px)  {
+    .about__list {
+        display: flex;
+        justify-content: center;
+    }
+    .about__img {
+        margin-bottom: 0;
+        height: 25rem;
+        object-fit: cover;
+    } 
+}

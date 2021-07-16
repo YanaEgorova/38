@@ -1,0 +1,47 @@
+.info {
+    text-align: center;
+}
+.info__img {
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+.info__list {
+    padding-left: 4rem;
+    text-align: left;
+}
+.info__item .text {
+    position: relative;
+}
+.info__item .text::before {
+    position: absolute;
+    left: -4rem;
+    top: -.5rem;
+    display: block;
+    content: '';
+    width: 3rem;
+    height: 3rem;
+    background-image: url('../img/barbell2.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media screen and (min-width: 1024px)  {
+    .info {
+        padding-top: 5rem;
+    }
+    .info__img {
+        margin: 0;
+        margin-right: 5rem;
+    }
+    .info__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
